@@ -1,0 +1,186 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-10">
+            <h1>TIY Sports</h1>
+            <span><i class="glyphicon glyphicon-heart"></i>  For the students of The Iron Yard</span>
+        </div>
+
+        <div class="col-md-pull-2">
+            <img src="~/Images/sports.jpg" class="img-circle" alt="Sports" width="150" height="150">
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-3 col-md-3">
+        <div class="thumbnail">
+            <img src="/Images/football.jpg" alt="Football">
+            <div class="caption">
+                <h3 class="text-center">Football</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-md-3">
+        <div class="thumbnail">
+            <img src="~/Images/baseball.jpg" alt="Football">
+            <div class="caption">
+                <h3 class="text-center">Baseball</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-md-3">
+        <div class="thumbnail">
+            <img src="~/Images/basketball.jpg" alt="Football">
+            <div class="caption">
+                <h3 class="text-center">Basketball</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3 col-md-3">
+        <div class="thumbnail">
+            <img src="~/Images/quidditch.jpg" alt="Football">
+            <div class="caption">
+                <h3 class="text-center">Quidditch</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br /><br />
+
+
+<div class="alert alert-danger" role="alert">
+    <span>We've added some brand new features in version 2.0!</span>
+    <a href="#">Learn More</a>
+</div>
+
+
+<div class="well">
+    <span><i class="glyphicon glyphicon-user"></i>  Please log in to edit</span>
+</div>
+
+
+<div class="panel panel-primary">
+    <div class="panel-heading"><span class="glyphicon glyphicon-play-circle"></span> Teams</div>
+    @*<div class="col-sm-pull-1">
+            <span class="badge">317 Teams</span>
+        </div>*@
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1">
+                        <img src="~/Images/dartboard.png" class="img-rounded" style="width: 100%">
+                    </div>
+                    <div class="col-xs-10">
+                        <h3>Tampa Dart Dynamos</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div>
+                        <span class="badge">8 players</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1">
+                        <img src="~/Images/pingpong.jpg" class="img-rounded" style="width: 100%">
+                    </div>
+                    <div class="col-xs-10">
+                        <h3>St. Pete Ping Pong Power House</h3>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                    <div>
+                        <span class="badge">8 players</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1">
+                        <img src="~/Images/golf.jpg" class="img-rounded" style="width: 100%">
+                    </div>
+                    <div class="col-xs-10">
+                        <h3>Orlando Golf Game</h3>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                    <div>
+                        <span class="badge">8 players</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <nav aria-label="Page navigation" class="text-center">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </li>
+    </ul>
+</div>
+
+<br /><br />
+
+<div class="panel panel-primary">
+    <!-- Default panel contents -->
+    <div class="panel-heading"><span class="glyphicon glyphicon-check"></span> Teams</div>
+
+    <!-- Table -->
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Home Team</th>
+            <th>Away Team</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tampa Dart Dynamics</td>
+            <td>Buffalo Bullseyes</td>
+            <td>20-17</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>St. Pete Ping Pong Power House</td>
+            <td>Philly Paddlers</td>
+            <td>18-12</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Orlando Golf Gang</td>
+            <td>Portland Putters</td>
+            <td>2-1</td>
+        </tr>
+    </table>
+</div>
