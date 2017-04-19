@@ -40,7 +40,7 @@
 
 <div class="alert alert-danger" role="alert">
     <span>We've added some brand new features in version 2.0!</span>
-    <a href="#">Learn More</a>
+    <a href="www.nytimes.com">Learn More</a>
 </div>
 
 
@@ -51,7 +51,7 @@
         </div>
     </div>
     <div class="col-sm-offset-10">
-        <a href="#">
+        <a href="www.facebook.com">
             <img src="~/Images/facebook.png" width="125" height="35">
         </a>
     </div>
@@ -65,56 +65,25 @@
     </div>
 
     <ul class="list-group">
-        <li class="list-group-item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-1">
-                        <img src="~/Images/dartboard.png" class="img-rounded" width="64" height="64">
-                    </div>
-                    <div class="col-xs-10">
-                        <h3>Tampa Dart Dynamos</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
-                    <div>
-                        <span class="badge">8 players</span>
-                    </div>
-                </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-1">
-                        <img src="~/Images/pingpong.jpg" class="img-rounded" width="64" height="64">
-                    </div>
-                    <div class="col-xs-10">
-                        <h3>St. Pete Ping Pong Power House</h3>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </div>
-                    <div>
-                        <span class="badge">8 players</span>
+        @foreach (var hometeam in Model.HomeTeams)
+        {        
+            <li class="list-group-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-1">
+                            <img src="@hometeam.TeamImage" class="img-rounded" width="64" height="64">
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>@hometeam.HomeTeamName</h3>
+                            @hometeam.TeamDescription
+                        </div>
+                        <div>
+                            <span class="badge">@hometeam.NumOfPlayers</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </li>
-
-        <li class="list-group-item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-1">
-                        <img src="~/Images/golf.jpg" class="img-rounded" width="64" height="64">
-                    </div>
-                    <div class="col-xs-10">
-                        <h3>Orlando Golf Game</h3>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </div>
-                    <div>
-                        <span class="badge">8 players</span>
-                    </div>
-                </div>
-            </div>
-        </li>
+            </li>
+        }
 
         <li>
             <nav aria-label="Page navigation" class="text-center">
@@ -148,6 +117,10 @@
 
     <!-- Table -->
     <table class="table">
+        @foreach (var item in collection)
+        {
+
+        }
         <tr>
             <th>#</th>
             <th>Home Team</th>

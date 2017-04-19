@@ -30,7 +30,7 @@ namespace TIYSportsPage.Migrations
 
             var homeTeam = new List<HomeTeam>
             {
-                new HomeTeam{HomeTeamName = "Tampa Dart Dynamos", TeamDescription = "Lorem ipsum dolor sit amet", NumOfPlayers = 8, TeamImage = "/images/dartboard.jpg"},
+                new HomeTeam{HomeTeamName = "Tampa Dart Dynamos", TeamDescription = "Lorem ipsum dolor sit amet", NumOfPlayers = 8, TeamImage = "/images/dartboard.png"},
                 new HomeTeam{HomeTeamName = "St. Pete Ping Pong Power House", TeamDescription = "Lorem ipsum dolor sit amet", NumOfPlayers = 7, TeamImage = "/images/pingpong.jpg"},
                 new HomeTeam{HomeTeamName = "Orlando Golf Game", TeamDescription = "Lorem ipsum dolor sit amet", NumOfPlayers = 4, TeamImage = "/images/golf.jpg"},
             };

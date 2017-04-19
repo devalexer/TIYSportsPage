@@ -16,16 +16,12 @@ namespace TIYSportsPage.Controllers
 
             var vm = new HomePage();
             vm.Sports = new IndexServices().GetAllSports();
-
+            vm.Games = new IndexServices().GetAllGames();
+            vm.HomeTeams = new IndexServices().GetAllHomeTeams();
+            vm.AwayTeams = new IndexServices().GetAllAwayTeams();
             return View(vm);
 
-
-            //var vm = new HomePage();
-            //vm.Games = new IndexServices().GetAllGames();
-
-            return View(vm);
         }
-
 
 
     }
