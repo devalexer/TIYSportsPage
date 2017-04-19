@@ -18,5 +18,6 @@ namespace TIYSportsPage.DataContext
         public DbSet<Sport> Sports { get; set; }
         public DbSet<HomeTeam> HomeTeams { get; set; }
         public DbSet<AwayTeam> AwayTeams { get; set; }
+
     }
 }
