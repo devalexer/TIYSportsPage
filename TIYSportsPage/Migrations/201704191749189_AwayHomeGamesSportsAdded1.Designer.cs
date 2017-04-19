@@ -7,13 +7,13 @@ namespace TIYSportsPage.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AwayHomeGamesSportsAdded : IMigrationMetadata
+    public sealed partial class AwayHomeGamesSportsAdded1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AwayHomeGamesSportsAdded));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AwayHomeGamesSportsAdded1));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704191539017_AwayHomeGamesSportsAdded"; }
+            get { return "201704191749189_AwayHomeGamesSportsAdded1"; }
         }
         
         string IMigrationMetadata.Source

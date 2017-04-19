@@ -5,7 +5,7 @@ using System.Web;
 
 namespace TIYSportsPage.Models
 {
-    public class Games
+    public class Game
     {
         public int Id { get; set; }
         public int HomeTeamId { get; set; }

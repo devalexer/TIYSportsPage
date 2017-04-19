@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace TIYSportsPage.Models
 {
-    public class Sports
+    public class Sport
     {
         public int Id { get; set; }
         public int SportName { get; set; }
