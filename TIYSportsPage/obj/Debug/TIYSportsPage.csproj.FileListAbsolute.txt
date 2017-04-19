@@ -65,3 +65,9 @@ c:\users\allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage
 c:\users\allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\obj\Debug\TIYSportsPage.csprojResolveAssemblyReference.cache
 c:\users\allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\obj\Debug\TIYSportsPage.dll
 c:\users\allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\obj\Debug\TIYSportsPage.pdb
+C:\Users\Allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\bin\EntityFramework.dll
+C:\Users\Allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\bin\EntityFramework.SqlServer.dll
+C:\Users\Allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\bin\EntityFramework.xml
+C:\Users\Allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\bin\EntityFramework.SqlServer.xml
+C:\Users\Allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\obj\Debug\TIYSportsPage.Migrations.AwayHomeGamesSportsAdded.resources
+C:\Users\Allie\documents\visual studio 2017\Projects\TIYSportsPage\TIYSportsPage\obj\Debug\TIYSportsPage.csproj.GenerateResource.Cache
